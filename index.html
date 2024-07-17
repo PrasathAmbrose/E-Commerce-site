@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wade.</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/index/favincon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="nav-box position-fixed z-1 m-5 bottom-0 end-0">
+      <button type="button" class="btn btn-primary">
+        <a href="#home"
+          ><i class="fa-solid fa-angle-up" style="color: #ffffff"></i
+        ></a>
+      </button>
+    </div>
+    <!-- horizontal navbar -->
+    <nav
+      class="navbar navbar1 navbar-expand-lg"
+      id="home"
+      style="background-color: #1b1d1f; height: 90px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./assets/index/Home-3-Logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: white"
+              >
+                Home
+              </a>
+              <ul class="dropdown-menu rounded-0">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item dark" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="color: white"
+              >
+                Shop
+              </a>
+              <ul class="dropdown-menu rounded-0">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reviews</a>
+            </li>
+          </ul>
+          <a
+            class="me-3"
+            href="”tel:5551234567“"
+            style="color: white; text-decoration: none"
+          >
+            <span class="me-2">
+              <i class="fa-solid fa-phone" style="color: #fff"></i
+            ></span>
+            <span>Call Us</span>
+          </a>
+          <a class="me-3" href="#"
+            ><span class="material-symbols-outlined" style="color: white">
+              shopping_cart
+            </span></a
+          >
+          <a href="#"
+            ><button
+              class="btn h-1 w-3 p-2"
+              type="submit"
+              style="font-weight: bold; background-color: #83be6e; color: #fff"
+            >
+              Get a Quote
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- aside navbar -->
+    <nav
+      class="navbar navbar2 fixed-top"
+      id="home"
+      style="background-color: #1b1d1f; height: 90px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/index/Home-3-Logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler shadow-none"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars fa-lg" style="color: #ffffff"></i>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header" style="background-color: #1b1d1f">
+            <button
+              type="button"
+              class="btn-close btn-light"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              style="background-color: white"
+            ></button>
+          </div>
+          <div class="offcanvas-body" style="background-color: black">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu rounded-0">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item dark" href="#"
+                      >Something else here</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  style="color: white"
+                >
+                  Shop
+                </a>
+                <ul class="dropdown-menu rounded-0">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+            </ul>
+            <a
+              class="me-3"
+              href="”tel:5551234567“"
+              style="color: white; text-decoration: none; display: block;"
+            >
+              <span class="me-2">
+                <i class="fa-solid fa-phone" style="color: #fff"></i
+              ></span>
+              <span>Call Us</span>
+            </a>
+            <a href="#"
+              ><button
+                class="btn btn-primary h-1 w-3 p-2 mt-3"
+                type="submit"
+                style="font-weight: bold"
+              >
+                Get a Quote
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="section1" style="overflow: hidden">
+      <div class="container">
+        <h1
+          class="lg-h1 md-h6 text-lg-start text-md-start text-sm-start text-light mx-auto mt-5 mb-5"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <span> The </span>
+          <div class="" style="display: inline">
+            <span
+              class="fill-animation"
+              style="position: absolute; padding-top: 0.35em; color: #83be6e"
+              ><svg
+                class="qodef-svg--highlight-underline"
+                xmlns="http://www.w3.org/2000/svg"
+                width="653.478"
+                height="18.37"
+                viewBox="0 0 653.478 18.37"
+                xml:space="preserve"
+                preserveAspectRatio="xMidYMid meet"
+                data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-delay="200"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+              >
+                <g transform="translate(-551.386 -470.453)">
+                  <path
+                    d="M1204.787,505.984c-.3-.765-1.544-1.847-4.205-3.015a61.57,61.57,0,0,0-12.127-3.507c-5.456-1.109-12.325-2.1-20.663-2.935-4.488-.452-13.717-1.367-26.454-2.19s-28.953-1.588-47.271-2.1c-36.637-1.052-81.607-1.131-123.713-.675-68.489-.661-148.421.06-215.079,1.13-66.667,1.054-120.094,2.374-135.825,2.551-51.507.618-68.807,1.984-68.041,5.1s27.169,2.011,27.178,2.022q136.6-5.478,273.72-8.15c45.672-.8,91.371-1.287,137.005-1.139,22.813.078,45.61.319,68.335.839s45.389,1.311,67.714,2.708c0,.006-6.815-.525-18.986-1.226,14.592.7,29.116,1.594,43.291,2.908,7.074.664,14.067,1.43,20.8,2.388a165.892,165.892,0,0,1,18.8,3.6c.007,0,3.31.859,6.3,1.728,1.508.436,2.962.873,4.25,1.178a8.514,8.514,0,0,0,3.6.246C1204.491,507.215,1205.083,506.76,1204.787,505.984Z"
+                    transform="translate(0 -19.788)"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M615.074,488.2c8.415-.6,34.764-2.121,68.867-3.774s75.966-3.412,115.313-4.691c32.073-.355,66.8-.514,101.275-.341s68.7.672,99.768,1.488,58.952,1.93,80.816,3.074,37.708,2.277,44.852,2.89c23.4,2.009,38.8,3.5,48.638,4.029,9.821.538,14.2.108,15.244-1.459s-4.594-3.036-10.564-4.008-12.163-1.484-12.159-1.484q-10.61-.867-21.244-1.57c2.885-.133,5.381-.51,5.764-1.4.989-2.248-8.58-3.491-37.651-4.265-7.824-.2-32.11-1.188-63.484-1.881-31.368-.723-69.812-1.092-105.812-.935-29.232-.646-60.943-1.035-92.477-1.123s-62.893.1-91.424.467c-57.064.718-102.8,2.126-116.3,2.321-44.187.676-58.952,2.365-57.639,5.809,1.277,3.442,23.613,2.126,23.642,2.146q57.965-3.214,116.409-5.107,58.365-1.939,116.9-2.671c74.1-.873,148.362-.264,221.966,2.839q-13.542-.432-27.1-.76c-42.929-1.015-85.887-1.288-128.8-1.093-85.833.417-171.48,2.682-256.821,6l18.159-.506q-41.513,1.542-82.941,3.435s-16.313.753-15.741,2.875S583.841,490.447,615.074,488.2Zm445.879-10.057q11.836.483,23.645,1.069-6.463-.249-12.929-.471Z"
+                    transform="translate(0 -2.27)"
+                    fill="currentColor"
+                  ></path>
+                </g>
+              </svg>
+            </span>
+            <span style="z-index: 1 !important"> Urban Pro </span>
+          </div>
+          <span class="text-sm-break">Beats</span>
+        </h1>
+      </div>
+    </section>
+    <section class="section2" style="overflow: hidden">
+      <div class="container rounded-5" style="height: 600px">
+        <div
+          class="pt-5 ms-5"
+          data-aos="fade-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <h2 class="mb-3" style="color: #83be6e; font-weight: bold">$120</h2>
+          <h5 style="color: white; font-weight: bold">
+            Best Value For<br />The Money
+          </h5>
+        </div>
+      </div>
+    </section>
+    <section
+      class="section3 mt-5 mb-5 pt-5"
+      style="position: relative; overflow: hidden"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <div
+              class="card bg-transparent"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div class="card-body">
+                <h2
+                  class="h2 card-title text-light"
+                  style="
+                    font-size: 44px;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                >
+                  Subscribe today and get 20% off on all goods
+                </h2>
+                <form class="mt-4">
+                  <label
+                    for="exampleInputEmail1"
+                    class="form-label text-light"
+                    style="
+                      display: block;
+                      font-family: Poppins, sans-serif;
+                      font-weight: 600;
+                    "
+                    >Email address</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      class="form-control rounded-1 h-5"
+                      id="exampleInputEmail1"
+                      aria-describedby="emailHelp"
+                      placeholder="Your Email"
+                    />
+                    <a
+                      href="#"
+                      class="btn ms-3 ps-3 pe-3 rounded-1"
+                      style="
+                        height: 45px;
+                        font-family: Poppins, sans-serif;
+                        font-weight: 600;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #83be6e;
+                        color: #fff;
+                      "
+                      >Subscribe</a
+                    >
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <div
+              class="card bg-transparent border-0"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <p
+                class="card-text line1 text-light p-4 p-lg-5 p-sm-4 p-md-4 lh-sm lh-lg"
+                style="
+                  height: 45px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 400;
+                "
+              >
+                Occaecati doloribus et laborum magnam. Aut eaque enim quia vel.
+                Soluta consequatur enim <u>temporibus cumque commodi</u> tempora
+                est tempora odio.
+              </p>
+              <p
+                class="card-text line2 mt-5 mt-sm-5 mt-md-2 mt-lg-5 mt-xl-2 text-light p-4 p-lg-5 p-sm-4 p-md-4 lh-sm lh-lg"
+                style="
+                  height: 45px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 400;
+                "
+              >
+                Quos officia est aspernatur molestias debitis in nos culpa omnis
+                sint corrupti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section4 pt-5" style="overflow: hidden">
+      <div class="container">
+        <div class="row scroll-row">
+          <div
+            class="card bg-transparent p-0 border-0 rounded position-relative"
+            style="width: 305px; height: 400px"
+          >
+            <div
+              class="frame"
+              style="
+                position: relative;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+              "
+            >
+              <div class="img-cover rounded" style="overflow: hidden">
+                <img
+                  src="./assets/index/Product-img-1.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                  style="width: 300"
+                />
+              </div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  height: 45px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 600;
+                "
+                >Add to cart</a
+              >
+            </div>
+            <div class="card-body ps-0">
+              <h5 class="card-title">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                  >Urban Pro Beats</a
+                >
+              </h5>
+              <p
+                class="card-text"
+                style="
+                  font-size: 19px;
+                  font-family: Poppins, sans-serif;
+                  color: #83be6e;
+                  font-weight: 700;
+                "
+              >
+                $130.00
+              </p>
+            </div>
+          </div>
+          <div
+            class="card bg-transparent p-0 border-0 rounded position-relative"
+            style="width: 305px; height: 400px"
+          >
+            <div
+              class="frame"
+              style="
+                position: relative;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+              "
+            >
+              <div class="img-cover rounded" style="overflow: hidden">
+                <img
+                  src="./assets/index/Product-img-2.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                  style="width: 300"
+                />
+              </div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  height: 45px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 600;
+                "
+                >Add to cart</a
+              >
+            </div>
+            <div class="card-body ps-0">
+              <h5 class="card-title">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                  >Urban Pro Beats</a
+                >
+              </h5>
+              <p
+                class="card-text"
+                style="
+                  font-size: 19px;
+                  font-family: Poppins, sans-serif;
+                  color: #83be6e;
+                  font-weight: 700;
+                "
+              >
+                $130.00
+              </p>
+            </div>
+          </div>
+          <div
+            class="card bg-transparent p-0 border-0 rounded position-relative"
+            style="width: 305px; height: 400px"
+          >
+            <div
+              class="frame"
+              style="
+                position: relative;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+              "
+            >
+              <div class="img-cover rounded" style="overflow: hidden">
+                <img
+                  src="./assets/index/Product-img-3.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                  style="width: 300"
+                />
+              </div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  height: 45px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 600;
+                "
+                >Add to cart</a
+              >
+            </div>
+            <div class="card-body ps-0">
+              <h5 class="card-title">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                  >Urban Pro Beats</a
+                >
+              </h5>
+              <p
+                class="card-text"
+                style="
+                  font-size: 19px;
+                  font-family: Poppins, sans-serif;
+                  color: #83be6e;
+                  font-weight: 700;
+                "
+              >
+                $130.00
+              </p>
+            </div>
+          </div>
+          <div
+            class="card bg-transparent p-0 border-0 rounded position-relative"
+            style="width: 305px; height: 400px"
+          >
+            <div
+              class="frame"
+              style="
+                position: relative;
+                display: flex;
+                justify-content: center;
+                overflow: hidden;
+              "
+            >
+              <div class="img-cover rounded" style="overflow: hidden">
+                <img
+                  src="./assets/index/Product-img-4.jpg"
+                  class="card-img-top rounded"
+                  alt="..."
+                  style="width: 300"
+                />
+              </div>
+              <a
+                href="#"
+                class="btn btn-primary"
+                style="
+                  height: 45px;
+                  font-family: Poppins, sans-serif;
+                  font-weight: 600;
+                "
+                >Add to cart</a
+              >
+            </div>
+            <div class="card-body ps-0">
+              <h5 class="card-title">
+                <a
+                  href=""
+                  style="
+                    text-decoration: none;
+                    color: white;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                  >Urban Pro Beats</a
+                >
+              </h5>
+              <p
+                class="card-text"
+                style="
+                  font-size: 19px;
+                  font-family: Poppins, sans-serif;
+                  color: #83be6e;
+                  font-weight: 700;
+                "
+              >
+                $130.00
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <div class="container mt-5">
+        <div
+          class="row pt-5 mb-3"
+          style="display: flex; justify-content: center"
+        >
+          <h6
+            class="text-center rounded-1 ps-3 pe-3"
+            style="
+              color: white;
+              background-color: #83be6e;
+              width: fit-content;
+              height: fit-content;
+              padding: 5px;
+            "
+          >
+            Planing
+          </h6>
+        </div>
+        <div class="row text-center">
+          <h2
+            style="
+              color: white;
+              font-family: Poppins, sans-serif;
+              font-weight: 600;
+              letter-spacing: -0.03em;
+              font-size: 44px;
+            "
+          >
+            Plan in front program for your<br />small startup business
+          </h2>
+        </div>
+        <div class="container1 position-relative mt-5">
+          <div class="rounded-5 iframe-container">
+            <img
+              class="img1 shadow-lg rounded position-absolute top-50 start-100 translate-middle"
+              src="./assets/index/baner-img-1.jpg"
+              alt=""
+              style="position: absolute; z-index: 1"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
+            <img
+              class="img2 shadow-lg rounded bottom-50 translate-middle shadow-1"
+              src="./assets/index/Home-3-video-holder-img.jpg"
+              alt=""
+              style="position: absolute; z-index: 1"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            />
+            <video
+              class=""
+              src="./assets/index/Home-3-Video.mp4"
+              frameborder="0"
+              autoplay
+              loop
+              muted
+              playsinline
+              disablePictureInPicture
+            ></video>
+          </div>
+          <article class="container text-center">
+            <div class="row mt-5 text-light">
+              <p>
+                Occaecati doloribus et laborum magnam. Aut eaque enim quia
+                vel.<br />
+                Soluta consequatur enim temporibus cumque commodi tempora<br />
+                est tempora odio.
+              </p>
+            </div>
+            <div class="row">
+              <a href="" style="color: blue">See our products</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section6">
+      <div class="container mt-5">
+        <div class="row text-light mt-5">
+          <div class="col-12 mt-sm-5 col-md-6 col-lg-3 col-xl-3 text-center">
+            <h2>4.98</h2>
+            <p>Average rating of this</p>
+          </div>
+          <div class="col-12 mt-sm-5 col-md-6 col-lg-3 col-xl-3 text-center">
+            <h2>100M+</h2>
+            <p>Users surveyed say they</p>
+          </div>
+          <div
+            class="col-12 mt-md-5 mt-sm-5 col-md-6 col-lg-3 col-xl-3 text-center"
+          >
+            <h2>24k</h2>
+            <p>A short-hand way of</p>
+          </div>
+          <div
+            class="col-12 mt-md-5 mt-sm-5 col-md-6 col-lg-3 col-xl-3 text-center"
+          >
+            <h2>140m</h2>
+            <p>Users surveyed say they</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section7">
+      <div class="container mt-5">
+        <div class="row scroll-row g-1 mt-5 pt-5">
+          <div class="col-4">
+            <div class="card border-0 p-1 bg-transparent" style="width: 500px">
+              <div class="card-img p-0">
+                <img
+                  src="./assets/index/Home-3-img-gallery-1.jpg"
+                  alt=""
+                  style="width: inherit"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-0 p-1 bg-transparent" style="width: 500px">
+              <div class="card-img p-0">
+                <img
+                  src="./assets/index/Home-3-img-gallery-2.jpg"
+                  alt=""
+                  style="width: inherit"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card border-0 p-1 bg-transparent" style="width: 500px">
+              <div class="card-img p-0">
+                <img
+                  src="./assets/index/Home-3-img-gallery-3.jpg"
+                  alt=""
+                  style="width: inherit"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section8" style="overflow: hidden">
+      <div class="container mt-5 pt-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-12 col-xl-6 col-xxl-6">
+            <div
+              class="card card1 border-0"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div class="card-body" style="border-bottom: 1px solid gray">
+                <h5 class="card-title">
+                  Summary of new product characteristics
+                </h5>
+                <p class="card-text mt-4 mb-lg-5 mb-md-5">
+                  Occaecati doloribus et laborum magnam. Aut eaque enim quia
+                  vel. Soluta consequatur enim temporibus cumque commodi tempora
+                  est tempora odio.
+                </p>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item border-0">
+                  <img src="./assets/index/icon.png" alt="" /> Awesome
+                  components
+                </li>
+                <li class="list-group-item border-0">
+                  <img src="./assets/index/icon.png" alt="" /> Ready to use
+                </li>
+                <li class="list-group-item border-0">
+                  <img src="./assets/index/icon.png" alt="" /> Awesome
+                  components
+                </li>
+                <li class="list-group-item border-0">
+                  <img src="./assets/index/icon.png" alt="" /> Ready to use
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 col-md-12 col-xl-6 col-xxl-6">
+            <div
+              class="card border-0 bg-transparent card2 rounded-5"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                class="rounded-5"
+                src="./assets/index/home-3-imge-1.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section9" style="overflow: hidden">
+      <div class="container mt-5 pt-5">
+        <div class="row">
+          <div class="col-12 col-lg-6 col-md-12 col-xl-6 col-xxl-6">
+            <div
+              class="card border-0 bg-transparent card2 rounded-5"
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <img
+                class="rounded-5"
+                src="./assets/index/home-3-imge-2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <article class="col-12 col-lg-6 col-md-12 col-xl-6 col-xxl-6">
+            <div
+              class="card card1 border-0 p-xl-5 p-xxl-5 p-lg-2 p-md-2 p-sm-2 p-2"
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+            >
+              <div class="card-body" style="border-bottom: 1px solid gray">
+                <h5 class="card-title">
+                  Satisfied customers speaks instead of us
+                </h5>
+                <p class="card-text mt-4 mb-lg-5 mb-md-5">
+                  Occaecati doloribus et laborum magnam. Aut eaque enim quia
+                  vel. Soluta consequatur enim temporibus cumque commodi tempora
+                  esty.
+                </p>
+              </div>
+              <ul class="list-group">
+                <li class="list-group-item border-0">
+                  <span>1,5k+</span> Happy employees
+                </li>
+                <li class="list-group-item border-0">
+                  <span>2,4m</span> Amazing projects
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section
+      class="section10 position-relative mt-5"
+      style="display: flex; overflow: hidden"
+    >
+      <div class="container-fluid position-relative">
+        <div
+          class="text-box position-absolute bottom-0 p-2 p-sm-1 p-md-3 p-lg-5"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <h1
+            class="h1"
+            style="
+              color: white;
+              font-family: Poppins, sans-serif;
+              font-weight: 600;
+            "
+          >
+            Wade.
+          </h1>
+          <p
+            class="text-light"
+            style="
+              font-family: Poppins, sans-serif;
+              font-size: 90%;
+              font-weight: 600;
+            "
+          >
+            Your favourite place
+          </p>
+        </div>
+        <img
+          src="./assets/index/Home-3-parallax-img.jpg"
+          class="img-fluid"
+          alt="..."
+          style="width: 100vw"
+        />
+      </div>
+    </section>
+    <section class="section11">
+      <div class="container mt-5" style="overflow: hidden">
+        <div
+          class="row pt-5 mb-3"
+          style="display: flex; justify-content: center"
+        >
+          <h6
+            class="text-center rounded-1 ps-3 pe-3"
+            style="
+              color: white;
+              background-color: #83be6e;
+              width: fit-content;
+              height: fit-content;
+              padding: 5px;
+            "
+          >
+            Testimonials
+          </h6>
+        </div>
+        <div class="row text-center">
+          <h2
+            style="
+              color: white;
+              font-family: Poppins, sans-serif;
+              font-weight: 600;
+              letter-spacing: -0.03em;
+              font-size: 44px;
+            "
+          >
+            What people have to say<br />
+            about Wade.
+          </h2>
+        </div>
+        <div class="container">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div
+                class="carousel-item carousel1 active"
+                style="overflow: hidden"
+              >
+                <div
+                  class="scroll-row mt-5 d-flex flex-row"
+                  style="overflow: hidden; justify-content: space-around"
+                >
+                  <div class="card profile1 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-1.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Cristina Durgan</h6>
+                        <h6>Founder & CEO</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card profile2 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-2.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Tony Callahan</h6>
+                        <h6>Manager</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card profile3 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-3.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Fiona Marcl</h6>
+                        <h6>Manager</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item carousel2">
+                <div
+                  class="scroll-row mt-5 d-flex flex-row"
+                  style="overflow: hidden; justify-content: space-around"
+                >
+                  <div class="card profile1 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-1.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Cristina Durgan</h6>
+                        <h6>Founder & CEO</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card profile2 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-2.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Tony Callahan</h6>
+                        <h6>Manager</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card profile3 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-3.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Fiona Marcl</h6>
+                        <h6>Manager</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item carousel3">
+                <div
+                  class="scroll-row mt-5 d-flex flex-row"
+                  style="overflow: hidden; justify-content: space-around"
+                >
+                  <div class="card profile1 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-1.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Cristina Durgan</h6>
+                        <h6>Founder & CEO</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card profile2 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-2.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Tony Callahan</h6>
+                        <h6>Manager</h6>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card profile3 p-4">
+                    <div class="card-body">
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+                    </div>
+                    <div class="card-text">
+                      <p>
+                        “Quos officia est aspernatur mo lestias debitis in nos
+                        trum itaque aesentium ut exercita tinem nul la nulla
+                        culpa elit per domus reptur chain omnis sincorrupti.”
+                      </p>
+                    </div>
+                    <div class="card-body d-flex p-0 pt-4">
+                      <img src="./assets/index/Testimonials-img-3.png" alt="" />
+                      <div
+                        class="card-tex d-flex ps-3"
+                        style="flex-direction: column; justify-content: center"
+                      >
+                        <h6 class="">Fiona Marcl</h6>
+                        <h6>Manager</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section12">
+      <div
+        class="container rounded-5 p-lg-5 p-xl-5 p-xxl-5 pt-5 mt-5"
+        style="background-color: #1b1d1f"
+      >
+        <div
+          class="card mx-auto m-0 bg-transparent mt-5 border-0"
+          style="width: 50%"
+        >
+          <h2 class="card-title text-light text-center">
+            Meet new people all over the world & make friends
+          </h2>
+          <div class="card-text text-light text-center">
+            Occaecati doloribus et laborum magnam. Aut eaque enim quia vel.
+            Soluta consequatur enim temporibus cumque commodi tempora est
+            tempora odio.
+          </div>
+          <form class="row mt-4 mb-5">
+            <div
+              class="col-12 col-lg-8 col-md-6 col-xl-8 col-xxl-8 input-group"
+            >
+              <input
+                type="email"
+                class="form-control rounded-1 h-5"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Your Email"
+              />
+              <a
+                href="#"
+                class="btn mt-2 mb-5 mt-lg-0 mt-xl-0 mt-xxl-0 mt-sm-2 mb-sm-5 mb-lg-0 mb-xl-0 mb-xxl-0 mb-md-5 ms-lg-3 ms-xl-3 ms-xxl-3 pt-lg-auto ps-lg-3 ps-xl-3 ps-xxl-3 pe-3 rounded-1 col-12 col-lg-3 col-md-12 col-xl-3 col-xxl-3"
+                style="background-color: #83be6e; color: #fff"
+                >Subscribe</a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section13">
+      <div class="container mt-5">
+        <div class="row">
+          <div
+            class="col-md-6 col-lg-4 col-xl-4 col-xxl-4 mt-sm-5 mt-md-5 mt-lg-0 mt-xl-0 mt-xxl-0"
+          >
+            <div class="card bg-transparent">
+              <div class="card-body">
+                <div
+                  class="card-title text-light"
+                  style="
+                    font-size: 22px;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                >
+                  Wade cares about the team members and their product growth.
+                </div>
+                <a
+                  href="#"
+                  class="card-link"
+                  style="
+                    font-size: 20px;
+                    font-family: Poppins, sans-serif;
+                    font-weight: 600;
+                  "
+                  >wade@info.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-2 col-xl-2 col-xxl-2 mt-5 mt-sm-5 mt-md-5 mt-lg-0 mt-xl-0 mt-xl-0 mt-xxl-0"
+          >
+            <ul class="list-group">
+              <span class="list-group-item"><h5 class="h5">Home</h5></span>
+              <li class="list-group-item">Main Home</li>
+              <li class="list-group-item">Agency Light</li>
+              <li class="list-group-item">Tech Store</li>
+              <li class="list-group-item">Agency Dark</li>
+              <li class="list-group-item">App Showcase</li>
+              <li class="list-group-item">Business Expo</li>
+              <li class="list-group-item">Consulting Home</li>
+              <li class="list-group-item">Résumé Home</li>
+              <li class="list-group-item">Landing</li>
+            </ul>
+          </div>
+          <div
+            class="col-md-6 col-lg-2 col-xl-2 col-xxl-2 mt-5 mt-sm-5 mt-md-5 mt-lg-0 mt-xl-0 mt-xl-0 mt-xxl-0 ps-4"
+          >
+            <div class="row">
+              <ul class="list-group">
+                <span class="list-group-item"><h5 class="h5">Pages</h5></span>
+                <li class="list-group-item">About Us</li>
+                <li class="list-group-item">Our Services</li>
+                <li class="list-group-item">Coming Soon</li>
+              </ul>
+            </div>
+            <div class="row mt-5">
+              <ul class="list-group">
+                <span class="list-group-item"><h5 class="h5">Shop</h5></span>
+                <li class="list-group-item">Product List</li>
+                <li class="list-group-item">Product Single</li>
+                <li class="list-group-item">Cart</li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="col-md-6 col-lg-2 col-xl-2 col-xxl-2 mt-5 mt-sm-5 mt-md-5 mt-lg-0 mt-xl-0 mt-xl-0 mt-xxl-0"
+          >
+            <ul class="list-group">
+              <span class="list-group-item"><h5 class="h5">Blog</h5></span>
+              <li class="list-group-item">Blog Standard</li>
+              <li class="list-group-item">Blog Masonry</li>
+              <li class="list-group-item">Standard Post</li>
+              <li class="list-group-item">Gallery Post</li>
+              <li class="list-group-item">Quote Post</li>
+              <li class="list-group-item">Link Post</li>
+              <li class="list-group-item">Video Post</li>
+              <li class="list-group-item">Audio Post</li>
+              <li class="list-group-item">No Sidebar Post</li>
+            </ul>
+          </div>
+          <div
+            class="col-md-12 col-lg-2 col-xl-2 col-xxl-2 mt-5 mt-sm-5 mt-md-5 mt-lg-0 mt-xl-0 mt-xl-0 mt-xxl-0 p-0"
+          >
+            <ul class="list-group">
+              <span class="list-group-item"><h5 class="h5">Portfolio</h5></span>
+              <li class="list-group-item">Portfolio List</li>
+              <li class="list-group-item">Big Images</li>
+              <li class="list-group-item">Small Images</li>
+              <li class="list-group-item">Big Slider</li>
+              <li class="list-group-item">Small Slider</li>
+              <li class="list-group-item">Big Gallery</li>
+              <li class="list-group-item">Small Gallery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section14 mt-5" style="border-top: 1px solid #646c79">
+      <div class="container">
+        <div
+          class="wrapper mt-4 mb-4"
+          style="display: flex; justify-content: space-between"
+        >
+          <div class="item">
+            <img src="./assets/index/wade-footer-logo-light.png" alt="" />
+          </div>
+          <div class="item ps-3" style="color: #646c79">
+            © 2024 Prasath, All Rights Reserved
+          </div>
+          <div class="item">
+            <div class="icons d-flex" style="gap: 10px">
+              <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+              <i class="fa-brands fa-pinterest-p" style="color: #ffffff"></i>
+              <i class="fa-brands fa-facebook-f" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

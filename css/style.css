@@ -1,0 +1,844 @@
+.navbar ul li .nav-link {
+  color: #fff;
+}
+
+body {
+  background-color: #111315 !important;
+}
+
+.nav-box button:hover i{
+  transform: translateY(-2px);
+}
+
+nav li a:hover{
+  text-shadow: 0px 0px 9px rgba(131,190,110,1);
+}
+
+nav button:focus{
+  outline: none;
+  border: none;
+}
+
+.section2 .container {
+  background-image: url("../assets/index/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.section2 .container h2 {
+  font-size: 44px;
+}
+
+.section2 .container h5 {
+  font-size: 30px;
+}
+
+input::placeholder {
+  color: gray;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+
+.section4 .row {
+  gap: 30px;
+}
+
+.section4 .card img {
+  transition: ease-in-out 0.8s;
+}
+
+.section4 .card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.section4 .card .btn {
+  display: none;
+  top: 350px;
+  position: absolute !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4 .card:hover .btn {
+  position: absolute;
+  animation: upanimation 0.8s forwards;
+}
+
+@keyframes upanimation {
+  0% {
+    top: 350px;
+    visibility: hidden;
+  }
+
+  50% {
+    top: 200px;
+    visibility: hidden;
+  }
+
+  100% {
+    top: 100px;
+    display: initial;
+  }
+}
+
+/* scrolling animation */
+
+.section4 {
+  overflow: hidden;
+  position: relative;
+}
+
+.section4 .scroll-row {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.section4 .card {
+  min-width: 305px;
+  height: 400px;
+  margin: 0 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.section4 .container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* scrolling animation */
+.section5 .container1 {
+  width: 100%;
+}
+
+.section5 .iframe-container {
+  width: 80%;
+  height: 40% !important;
+  margin: auto;
+  padding-top: 45%;
+  position: relative;
+}
+
+.section5 video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px !important;
+}
+
+/* section5 */
+
+.section5 .container1 .img1 {
+  width: 30%;
+}
+
+.section5 .container1 .img2 {
+  width: 20%;
+}
+
+.section5 article {
+  font-family: Poppins, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+/* section6 */
+.section6 h2 {
+  font-size: 32px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 992px) {
+  body .navbar2 {
+    display: none;
+  }
+}
+
+/* section7 */
+.section7 {
+  overflow: hidden;
+}
+
+.section7 .scroll-row {
+  display: flex;
+  width: max-content;
+}
+
+/* section8 */
+
+.section8 .card1 {
+  background-color: transparent;
+  color: #fff;
+}
+
+/* section9 */
+.section9 .card1 {
+  background-color: transparent;
+  color: #fff;
+}
+
+.section9 article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section9 article span {
+  color: #83be6e;
+}
+
+/* section11 */
+
+.section11 .card {
+  background-color: #1b1d1f;
+  color: #fff;
+  width: 22rem;
+}
+
+/* section13 */
+.section13  ul li{
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.section13  ul span{
+  color: #83be6e;
+  background-color: transparent;
+  border: none;
+}
+
+.section13 ul li:hover{
+  cursor: pointer;
+  transform: translateX(5px);
+}
+
+/* section14 */
+  .section14 i:hover, .section14 img:hover{
+    cursor: pointer;
+  }
+
+@media only screen and (min-width: 350px) and (max-width: 480px) {
+  /* Extra small devices  */
+  .section1 h1 {
+    font-size: 3rem !important;
+    font-weight: bold;
+  }
+
+  .section1 svg {
+    width: 14rem !important;
+  }
+
+  /* section3 */
+  .section3 .card .line2 {
+    margin-top: 6rem !important;
+  }
+
+  /* section8 */
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .section8 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section9 */
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+  }
+
+  .section9 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section11 carousel */
+  .section11 .carousel1 .profile2,
+  .section11 .carousel1 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel2 .profile1,
+  .section11 .carousel2 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel3 .profile1,
+  .section11 .carousel3 .profile2 {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 574px) {
+  /* Extra small devices  */
+  .section1 h1 {
+    font-size: 4rem !important;
+    font-weight: bold;
+  }
+
+  .section1 svg {
+    width: 18rem !important;
+  }
+
+  /* section3 */
+  .section3 .card .line2 {
+    margin-top: 4rem !important;
+  }
+
+  .section5 .container1 .img1 {
+    width: 30%;
+  }
+
+  .section5 .container1 .img2 {
+    width: 20%;
+  }
+
+  /* section8 */
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .section8 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section9 */
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .section9 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section11 carousel */
+  .section11 .carousel1 .profile2,
+  .section11 .carousel1 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel2 .profile1,
+  .section11 .carousel2 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel3 .profile1,
+  .section11 .carousel3 .profile2 {
+    display: none;
+  }
+
+  /* section12 */
+  .section12 .card-title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 .card-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 a {
+    height: 38px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 574px) and (max-width: 767px) {
+  /* sm small devices */
+  .section1 h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+
+  .section1 svg {
+    width: 22rem !important;
+  }
+
+  /* section8 */
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .section8 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section9 */
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .section9 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section11 carousel */
+  .section11 .carousel1 .profile2,
+  .section11 .carousel1 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel2 .profile1,
+  .section11 .carousel2 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel3 .profile1,
+  .section11 .carousel3 .profile2 {
+    display: none;
+  }
+
+  /* section12 */
+  .section12 .card-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 .card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 a {
+    height: 38px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  /* md Medium devices */
+  .section1 h1 {
+    font-size: 6rem;
+    font-weight: bold;
+  }
+
+  .section1 svg {
+    width: 28rem !important;
+  }
+
+  /* section8 */
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    line-height: 1.5;
+  }
+
+  .section8 .card1 p {
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section9 */
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1;
+    line-height: 1.5;
+  }
+
+  .section9 .card1 p {
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section11 carousel */
+  .section11 .carousel1 .profile2,
+  .section11 .carousel1 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel2 .profile1,
+  .section11 .carousel2 .profile3 {
+    display: none;
+  }
+
+  .section11 .carousel3 .profile1,
+  .section11 .carousel3 .profile2 {
+    display: none;
+  }
+
+  /* section12 */
+  .section12 .card-title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 .card-text {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 a {
+    height: 38px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+  /* lg Large devices */
+  .section1 h1 {
+    font-size: 8.3rem;
+    font-weight: bold;
+  }
+
+  /* section8 */
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .section8 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section9 */
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .section9 .card1 p {
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section12 */
+  .section12 .card-title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 .card-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 a {
+    height: 50px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1199px) and (max-width: 1399px) {
+  /* xl Extra large devices */
+  .section1 h1 {
+    font-size: 8.3rem;
+    font-weight: bold;
+  }
+
+  /* section8 */
+
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .section8 .card1 p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section8 */
+
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .section9 .card1 p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+  }
+
+  /* section12 */
+  .section12 .card-title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 .card-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 a {
+    height: 50px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1399px) {
+  /* xxl Extra extra large devices */
+  .section1 h1 {
+    font-size: 8.3rem;
+    font-weight: bold;
+  }
+
+  /* section5 */
+  .section5 .container1 .img1 {
+    width: 20%;
+  }
+
+  .section5 .container1 .img2 {
+    width: 20%;
+  }
+
+  /* section8 */
+
+  .section8 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .section8 .card1 p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .section8 ul li {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 1.5 rem;
+  }
+
+  /* section9 */
+
+  .section9 .card1 h5 {
+    font-family: Poppins, sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+  }
+
+  .section9 .card1 p {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .section9 ul li {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: inherit;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 1.5 rem;
+  }
+
+  /* section12 */
+  .section12 .card-title {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 .card-text {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Poppins, sans-serif;
+  }
+
+  .section12 a {
+    height: 50px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
